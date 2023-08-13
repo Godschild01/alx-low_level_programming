@@ -5,16 +5,15 @@
  *
  * Return: Always 0 (Success)
  */
-
-int main() 
+int main(void)
 {
-    int digit = 0;
-    while (digit < 10) {
-        putchar('0' + digit);
-        digit++;
-    }
-    
-    putchar('\n');
-    retunr(0);
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d", i);
+	}
+	putchar('\n');
+	return (0);
 }
-  
+
