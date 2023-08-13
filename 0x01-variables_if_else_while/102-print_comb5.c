@@ -8,7 +8,7 @@ int main(void)
 {
 	int a, k;
 
-	for (a = 0; a < 100; i++)
+	for (a = 0; a < 100; a++)
 	{
 		for (k = 0; k < 100; k++)
 		{
@@ -31,4 +31,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
