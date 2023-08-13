@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
@@ -13,8 +15,8 @@ int main(void)
 	for (q = 0; q < 26; q++)
 	{
 		putchar(alp[q]);
+
 	}
 	putchar('\n');
 	return (0);
 }
-
