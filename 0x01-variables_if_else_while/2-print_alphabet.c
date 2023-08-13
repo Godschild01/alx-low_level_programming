@@ -14,11 +14,10 @@ int main(void)
 
 	for (q = 0; q < 26; q++)
 	{
-		putchar(alp[q]);
+		putchar(a-z[q]);
 
 	}
 	putchar('\n');
-
 	return (0);
 }
 
